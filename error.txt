@@ -1,0 +1,35 @@
+ros2 launch robotics_project4 robot.launch.py
+/opt/ros/foxy/bin/ros2:6: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import load_entry_point
+[INFO] [launch]: All log files can be found below /home/nvidia/.ros/log/2026-05-06-11-36-40-299507-nvidia-desktop-9263
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_controller_node-1]: process started with pid [9266]
+[robot_controller_node-1] [INFO] [1778085409.892907296] [robot_controller_node]: Initializing robot camera...
+[robot_controller_node-1] [ WARN:0@7.530] global /home/nvidia/workspace/opencv-4.6.0/modules/videoio/src/cap_gstreamer.cpp (2401) handleMessage OpenCV | GStreamer warning: Embedded video playback halted; module v4l2src0 reported: Cannot identify device '/dev/video0'.
+[robot_controller_node-1] [ WARN:0@7.532] global /home/nvidia/workspace/opencv-4.6.0/modules/videoio/src/cap_gstreamer.cpp (1356) open OpenCV | GStreamer warning: unable to start pipeline
+[robot_controller_node-1] [ WARN:0@7.532] global /home/nvidia/workspace/opencv-4.6.0/modules/videoio/src/cap_gstreamer.cpp (862) isPipelinePlaying OpenCV | GStreamer warning: GStreamer: pipeline have not been created
+[robot_controller_node-1] [ WARN:0@7.533] global /home/nvidia/workspace/opencv-4.6.0/modules/videoio/src/cap_v4l.cpp (902) open VIDEOIO(V4L2:/dev/video0): can't open camera by index
+[robot_controller_node-1] [WARN] [1778085411.388503488] [robot_controller_node]: Failed to open robot camera /dev/video0
+[robot_controller_node-1] [INFO] [1778085411.393657568] [robot_controller_node]: ============================================================
+[robot_controller_node-1] [INFO] [1778085411.396391008] [robot_controller_node]: Robot Controller Node Started (DUAL CAMERA)
+[robot_controller_node-1] [INFO] [1778085411.398585408] [robot_controller_node]: ============================================================
+[robot_controller_node-1] [INFO] [1778085411.402033312] [robot_controller_node]: Running on: TurtleBot3 Raspberry Pi 4
+[robot_controller_node-1] [INFO] [1778085411.404405792] [robot_controller_node]: Control frequency: 50.0 Hz
+[robot_controller_node-1] [INFO] [1778085411.406554496] [robot_controller_node]: Camera enabled: True
+[robot_controller_node-1] [INFO] [1778085411.408796576] [robot_controller_node]: ============================================================
+^C[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[robot_controller_node-1] [INFO] [1778085467.959874912] [robot_controller_node]: Robot stopped
+[robot_controller_node-1] 
+[robot_controller_node-1] ============================================================
+[robot_controller_node-1] Robot Controller Node Started (DUAL CAMERA VERSION)
+[robot_controller_node-1] ============================================================
+[robot_controller_node-1] This node runs on the TURTLEBOT3 (Raspberry Pi 4)
+[robot_controller_node-1] Camera publishing: /robot_camera/image_raw
+[robot_controller_node-1] 
+[robot_controller_node-1] Press Ctrl+C to stop
+[robot_controller_node-1] ============================================================
+[robot_controller_node-1] 
+[robot_controller_node-1] 
+[robot_controller_node-1] Shutting down...
+[INFO] [robot_controller_node-1]: process has finished cleanly [pid 9266]
+
